@@ -17,13 +17,13 @@ function buildMetadata(sample) {
 
         // Build the gauge chart: buildGauge(data.WFREQ)
         var data = [{domain: {x: [0, 1], y:[0, 1]}, value:data.WFREQ,
-            title: {text: "Belly Button Washing Frequency Scrubs per Week", font: {size:13}},
+            title: {text: "Belly Button Washing Frequency Scrubs per Week", font: {size:14}},
             type: "indicator", mode: "gauge+number+delta",
             delta: {reference: 9, increasing: {color: "green"}},
             gauge:
                 {axis: {range: [0, 10]}, steps: [{range: [0, 5], color: "lightgray"},
                 {range: [5, 8], color: "gray"}], threshold: {line: {color: "red", width: 4},
-                thinkness: 0.75, value: 9}}}];
+                thickness: 0.75, value: 9}}}];
         
         var gaugePlot = {width: 400, height: 500, margin: {t:0, b:0}};
         Plotly.newPlot("gauge", data, gaugePlot);
