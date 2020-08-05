@@ -1,4 +1,4 @@
-# Belly Button Biodiversity Visualization
+# Belly Button Biodiversity Dashboard
 In this project, we are going to explore the data provided by [Belly Button Biodiversity DataSet](http://robdunnlab.com/projects/belly-button-biodiversity/) and create an interactive dashboard using `Plotly.js`.
 
 ## Preparation
