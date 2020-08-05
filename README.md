@@ -29,4 +29,5 @@ Install `pip install -r requirements.txt` before you start the server.
 
    * Display each key/value pair from the metadata JSON object somewhere on the page.
 
-4. Deploy the Flask app to Heroku
+## Result
+Please see the final result [here](https://bio-dashboard.herokuapp.com/)
